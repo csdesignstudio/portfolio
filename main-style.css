@@ -349,8 +349,9 @@ hr {
 
 
 .text-wrapper {
- width:480px;
- padding-right:10px;
+  font-weight:400;
+  width:480px;
+  padding-right:10px;
 
 }
 
