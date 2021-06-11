@@ -573,7 +573,6 @@ input[type=submit]:hover {
   color:#54565A;
   list-style-type:none;
   padding-right:10px;
-  font-size:0.8rem;
 
 
 }
@@ -592,6 +591,7 @@ input[type=submit]:hover {
   letter-spacing:1.3px;
   text-transform:uppercase;
   font-weight:400;
+  font-size:0.85rem
 
 }
 
@@ -599,14 +599,13 @@ input[type=submit]:hover {
 .nav-item a:link {
   text-transform:uppercase;
   font-weight:400;
-  font-size:1rem;
+  font-size:0.85rem;
   letter-spacing:1px;
   text-decoration:none;
 }
 
 
 .nav-item a:active {
-  font-weight:700;
   color:#EF9C11;
   text-decoration: none;
 
