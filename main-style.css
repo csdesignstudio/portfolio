@@ -451,6 +451,7 @@ figcaption {
 .edu-content-wrapper {
   margin-left:10px;
   margin-top:5px;
+  font-size:1rem;
 
 
 }
@@ -641,6 +642,15 @@ a:visited {
 
 }
 
+.edu-content-wrapper {
+  margin-left:10px;
+  margin-top:5px;
+  font-size:1rem;
+
+
+}
+
+
 .bullet-list-skills {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -746,6 +756,14 @@ a:visited {
       padding-left: 10px;
       padding-right: 10px;
       margin-top:10px;
+
+    }
+
+    .edu-content-wrapper {
+      margin-left:10px;
+      margin-top:5px;
+      font-size:1rem;
+
 
     }
 
