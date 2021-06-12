@@ -412,6 +412,10 @@ hr {
 }
 
 
+figcaption {
+  width:250px;
+}
+
 .caption-copy {
   font-weight:400;
   font-size:1rem;
