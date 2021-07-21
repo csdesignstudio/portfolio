@@ -296,7 +296,7 @@ hr {
 .dropdown-content {
   display:none;
   position:absolute;
-  right:10px;
+  right:0px;
   top:20px;
   background-color:#f1f1f1;
   min-width:100px;
