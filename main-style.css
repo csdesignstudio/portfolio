@@ -204,7 +204,7 @@ hr {
 }
 
 .company-subhead {
-  font-weight:500;
+  font-weight:700;
   font-size:1rem;
   color:#54565A;
   letter-spacing:.5px;
@@ -232,7 +232,7 @@ hr {
 
 .subhead-dd {
   text-transform:uppercase;
-  font-weight:300;
+  font-weight:500;
   font-size:1rem;
   padding-top:0;
   padding-left:10px;
