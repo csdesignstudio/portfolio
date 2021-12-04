@@ -262,7 +262,6 @@ hr {
   flex-wrap:wrap;
   background-color:#0AAA5F;
   height:70px;
-  padding-top: 10px;
 
 }
 
@@ -276,6 +275,7 @@ hr {
 
 .logo-wrapper {
   margin-left:50px;
+  padding-top: 10px;
 
 }
 
