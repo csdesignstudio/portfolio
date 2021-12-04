@@ -583,7 +583,7 @@ input[type=submit]:hover {
   align-items:center;
   justify-content:flex-end;
   list-style-type:none;
-  padding-right:50px;
+  margin-right:50px;
   color:white;
 
 
@@ -592,6 +592,8 @@ input[type=submit]:hover {
 .navigation-items {
   margin:0;
   padding:0;
+  color:white;
+
 
 }
 
@@ -604,6 +606,7 @@ input[type=submit]:hover {
   text-transform:uppercase;
   font-weight:400;
   font-size: 14px;
+  color:white;
 
 }
 
@@ -613,18 +616,21 @@ input[type=submit]:hover {
   font-weight:400;
   letter-spacing:1px;
   text-decoration:none;
+  color:white;
+
 }
 
 
 .nav-item a:active {
   color:white;
   text-decoration: none;
+  color:white;
 
  }
 
 
 a:visited {
-  color:#595A5C;
+  color:white;
 
 
 }
