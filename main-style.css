@@ -22,18 +22,18 @@ h2 {
   letter-spacing:1px;
   color:#3D56A6;
   font-size:1rem;
-  padding-top:10px;
+  padding-top:0;
   padding-right:0;
   padding-left:10px;
   padding-bottom:0;
   margin-left: :230px;
-  
+
 }
 
 h3 {
   font-weight:500;
   font-size:1rem;
-  margin:0, 0, -3px, 0;
+  margin:0, 0, 0, 0;
   text-transform:uppercase;
   color:white;
   letter-spacing:1.3px;
@@ -51,7 +51,7 @@ h4 {
 h5 {
   font-weight:300;
   font-size:1rem;
-  margin:0 0 2px 0;
+  margin:0 0 0 0;
   color:white;
   letter-spacing:1px;
 }
