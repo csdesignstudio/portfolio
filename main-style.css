@@ -199,9 +199,11 @@ hr {
   color:#EF9C11;
   letter-spacing:1.3px;
 
-  /* Above selector is unused. Bold Orange Subhead */
 
 }
+/* Above selector is unused. Bold Orange Subhead */
+
+
 
 .company-subhead {
   font-weight:700;
@@ -275,7 +277,7 @@ hr {
 
 .logo-wrapper {
   margin-left:50px;
-  padding-top: 10px;
+  padding-top: 5px;
 
 }
 
