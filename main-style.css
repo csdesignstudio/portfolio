@@ -26,7 +26,7 @@ h2 {
   padding-right:0;
   padding-left:10px;
   padding-bottom:0;
-  margin-left: :230px;
+  margin-left:230px;
 
 }
 
@@ -583,7 +583,8 @@ input[type=submit]:hover {
   align-items:center;
   justify-content:flex-end;
   list-style-type:none;
-  padding-right:10px;
+  padding-right:50px;
+  color:white;
 
 
 }
