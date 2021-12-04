@@ -269,7 +269,7 @@ hr {
   flex:2;
   flex-basis: 150px;
   margin-left:10px;
-  background-color: #595A5C;
+  background-color: #0AAA5F;
 
 }
 
@@ -281,6 +281,8 @@ hr {
 
 .nav-off {
   display:none;
+  background-color: #0AAA5F;
+
 }
 
 .menu-icon {
