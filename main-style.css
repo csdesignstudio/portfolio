@@ -17,7 +17,7 @@ p {
 }
 
 h2 {
-  text-transform:uppercase;
+
   font-weight:500;
   letter-spacing:1px;
   color:#54565A;
@@ -35,7 +35,7 @@ h3 {
   font-size:1rem;
   margin:0 0 3px 0;
   text-transform:uppercase;
-  color:#EF9C11;
+  color:white;
   letter-spacing:1.3px;
 
 }
@@ -52,7 +52,7 @@ h5 {
   font-weight:500;
   font-size:1rem;
   margin:0 0 2px 0;
-  color:#54565A;
+  color:white;
   letter-spacing:1px;
 }
 
@@ -260,7 +260,7 @@ hr {
   justify-content:center;
   align-items:center;
   flex-wrap:wrap;
-  background-color:white;
+  background-color:#0AAA5F;
   height:70px;
 
 }
@@ -269,6 +269,7 @@ hr {
   flex:2;
   flex-basis: 150px;
   margin-left:10px;
+  background-color: #595A5C;
 
 }
 
@@ -614,14 +615,14 @@ input[type=submit]:hover {
 
 
 .nav-item a:active {
-  color:#EF9C11;
+  color:white;
   text-decoration: none;
 
  }
 
 
 a:visited {
-  color:#9c9c9c9c;
+  color:#595A5C;
 
 
 }
