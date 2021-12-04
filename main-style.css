@@ -583,7 +583,6 @@ input[type=submit]:hover {
   display:flex;
   align-items:center;
   justify-content:flex-end;
-  color:#54565A;
   list-style-type:none;
   padding-right:10px;
 
