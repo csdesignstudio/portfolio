@@ -18,7 +18,7 @@ p {
 
 h2 {
 
-  font-weight:700;
+  font-weight:500;
   letter-spacing:1px;
   color:#3D56A6;
   font-size:1rem;
@@ -26,9 +26,8 @@ h2 {
   padding-right:0;
   padding-left:10px;
   padding-bottom:0;
-  margin:0;
-  text-transform: none;
-
+  margin-left: :230px;
+  
 }
 
 h3 {
