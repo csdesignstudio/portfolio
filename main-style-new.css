@@ -458,7 +458,7 @@ align-items: flex-start;
 .project-overview-brite {
   display: flex;
   flex-direction: column;
- padding: 35px 10px;
+ padding: 25px 10px 0 10px;
  background-color: #0AAA5F;
  color:white;
  font-size: 1rem;
