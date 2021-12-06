@@ -455,7 +455,7 @@ align-items: flex-start;
 
 
 
-.project-grid-section {
+.project-overview-brite {
   display: flex;
   flex-direction: column;
  padding: 35px 10px;
@@ -488,6 +488,10 @@ align-items: flex-start;
 .padding-bottom-copy {
 margin-bottom: 15px;
 }
+
+
+
+
 
 
 .gallery-wrapper {
@@ -897,14 +901,30 @@ margin-bottom: 15px;
 
 }
 
-.approach-header {
-display: grid;
-grid-template-columns: 1fr 282px 1fr;
+
+.approach-header-left {
+  display: grid;
+  grid-template-columns: 1fr;
+
 
 
 }
 
-   .project-grid-section {
+
+
+ .approach-grid {
+ display: grid;
+ grid-template-columns: 1fr;
+ margin: 0 0;
+ justify-items: center;
+
+}
+
+
+
+
+
+   .project-overview-brite {
      display: flex;
      flex-direction: column;
     padding: 0px 120px;
@@ -916,10 +936,7 @@ grid-template-columns: 1fr 282px 1fr;
 }
 
 
-   .project-header-font {
-    grid-column: 2 / span 3;
 
-}
 
 
     .small-text-project{
@@ -1257,7 +1274,6 @@ border-radius: 29px;
   .exploration-content {
    display:grid;
    grid-template-columns: 1fr 2fr 1fr;
-   justify-content: center;
    background: rgba(10, 170, 95, 0.15);
 
 
@@ -1390,10 +1406,10 @@ border-radius: 29px;
 }
 
 
-   .project-grid-section {
+   .project-overview-brite {
     display: grid;
     grid-template-columns: 1fr 2fr 2fr 1fr;
-    grid-gap: 10px;
+    grid-column-gap: 10px;
     margin:0 0;
     padding: 0 0;
     background-color: #0AAA5F;
@@ -1402,22 +1418,37 @@ border-radius: 29px;
     font-weight:300;
 
 }
+.project-header-font {
+  grid-column: 2 / span 2;
+}
+
+.approach-header-left {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 
 
-   .project-header-font {
-    grid-column: 2 / span 3;
 
 }
+
+
+
+.approach-grid {
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-column-gap: 20px;
+justify-items: center;
+
+}
+
 
 
     .small-text-project{
       color:white;
       font-size: 0.7rem;
       font-weight:300;
-      margin-top: 20px;
+      margin-top: 10px;
       padding-left: 0;
-      margin-bottom: 10px;
-
+padding-bottom: 0px;
     }
 
 
@@ -1432,6 +1463,9 @@ border-radius: 29px;
       grid-template-columns: repeat(3, 1fr);
 
     }
+
+
+
 
 
 
