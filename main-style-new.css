@@ -1014,7 +1014,6 @@ border-radius: 29px;
 
     }
 
-
     a:active {
     color:white;
 
@@ -1031,6 +1030,7 @@ border-radius: 29px;
     a {
     text-decoration: none;
     }
+  
 
     .navigation-items {
       display: contents;
