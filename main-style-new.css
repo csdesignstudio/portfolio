@@ -15,7 +15,7 @@ p {
 h2 {
 
   font-weight:500;
-  letter-spacing:1px;
+  letter-spacing:1.7px;
   color:#3D56A6;
   font-size:1rem;
   padding-top:0;
@@ -384,8 +384,8 @@ align-items: flex-start;
   font-size:110px;
   margin-top:0;
   margin-bottom:0;
-  margin-left:10px;
-  margin-right:0;
+  padding-right: 20px;
+padding-left: 20px;
   height:70px;
 
 }
@@ -401,8 +401,8 @@ align-items: flex-start;
   font-size:1rem;
   padding-top:5px;
   padding-right:10px;
-  padding-left:15px;
-  padding-bottom:10px;
+  padding-right: 20px;
+  padding-left: 20px;
   margin-left: 0;
   font-size: 1.2rem;
 
@@ -987,7 +987,7 @@ align-items: center;
    .project-overview-brite {
     display: flex;
     flex-direction: column;
-    padding: 0px 120px;
+    padding: 0px 60px;
     background-color: #0AAA5F;
     color:white;
     font-size: 1rem;
@@ -1332,12 +1332,11 @@ border-radius: 29px;
 
 
    .image-project-header{
-     border-radius: 6px;
-   margin-left: 10px;
-   position: relative;
-   top:-25px;
-   box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3),0 1px 2px rgba(0,0,0,0.24);
-   transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    border-radius: 6px;
+    position: relative;
+    top:-25px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3),0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 
 }
 .image-project-header:hover{
@@ -1461,6 +1460,7 @@ border-radius: 29px;
     display: grid;
     grid-template-columns: 1fr 2fr 1fr 1fr;
     grid-column-gap: 10px;
+    grid-column: 2 / span 4;
     margin:0 0;
     padding: 0 0;
     background-color: #0AAA5F;
@@ -1469,9 +1469,10 @@ border-radius: 29px;
     font-weight:300;
 
 }
-.project-header-font {
+/*.project-header-font {
+  display: grid;
   grid-column: 2 / span 2;
-}
+}*/
 
 .approach-header-left {
   display: grid;
