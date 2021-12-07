@@ -1084,6 +1084,7 @@ border-radius: 29px;
     .button-wrapper {
     text-decoration: none;
     float: right;
+    margin-right: 15px;
 
 
  }
@@ -1142,8 +1143,8 @@ border-radius: 29px;
     text-align:left;
     font-size:.7rem;
     padding:0;
-    margin-top:5px;;
-    margin-left:10px;
+    margin-bottom: 20px;
+    margin-left:30px;
     font-weight:400;
     }
 }
@@ -1649,8 +1650,8 @@ border-radius: 29px;
     text-align:left;
     font-size:.7rem;
     padding:0;
-    margin-top:5px;;
-    margin-left:10px;
+
+    margin-left:30px;
     font-weight:400;
   }
     }
