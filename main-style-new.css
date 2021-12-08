@@ -383,8 +383,9 @@ align-items: flex-start;
   margin-top:0;
   margin-bottom:0;
   padding-right: 20px;
-padding-left: 20px;
+  padding-left: 20px;
   height:70px;
+  margin-top: -40px;
 
 }
 
@@ -875,7 +876,7 @@ align-items: center;
 
     .about-content-wrapper {
       display:grid;
-      grid-template-columns: 55px 1fr 2fr 55px;
+     grid-template-columns: 20px 1fr 2fr 20px;
       grid-gap: 10px;
       background: rgba(10, 170, 95, 0.15);
       margin-top: 70px;
@@ -1512,7 +1513,8 @@ grid-template-columns:1fr 1fr 1fr 1fr;
 
     .padding-bottom-copy {
     margin-bottom: 40px;
-    }
+    margin-top: 0;
+  }
 
 
 
