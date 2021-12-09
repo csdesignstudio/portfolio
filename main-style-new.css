@@ -990,9 +990,6 @@ align-items: center;
 }
 
 
-
-
-
    .project-overview-brite {
     display: flex;
     flex-direction: column;
@@ -1004,6 +1001,9 @@ align-items: center;
 
 }
 
+.project-header-font {
+  grid-column: 2 / span 2;
+}
 
 .small-text-project{
   color:white;
@@ -1360,7 +1360,7 @@ border-radius: 29px;
 }
 
 /*.grid-item-span{
-  grid-row: 3 / span 6
+  grid-row: 2 / span2
 }*/
 
 .image-project-header:hover{
@@ -1486,13 +1486,17 @@ border-radius: 29px;
     grid-template-columns: 1fr 2fr 1fr 1fr;
     grid-column-gap: 10px;
     grid-row-gap: 10px;
-  margin:0 0;
+    margin:0 0;
     padding: 0 0;
     background-color: #0AAA5F;
     color:white;
     font-size: 1rem;
     font-weight:300;
 
+}
+
+.project-header-font {
+  grid-column: 2 / span 2;
 }
 
 
